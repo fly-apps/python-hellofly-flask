@@ -4,9 +4,9 @@ In our Hands-On section, we show how to deploy a deployable image file using Fly
 
 ## _The Hellofly-python Application_
 
-You can get the code for the example from [the hellofly Github repository](https://github.com/fly-examples/python-hellofly-flask). Just `git clone https://github.com/fly-examples/python-hellofly-flask` to get a local copy.
+You can get the code for the example from [the Fly-Examples Github repository](https://github.com/fly-examples/python-hellofly-flask). Just `git clone https://github.com/fly-examples/python-hellofly-flask` to get a local copy.
 
-The hellofly-python application is, as you'd expect for an example, small. It's a Python application that uses the [Flask](https://flask.palletsprojects.com/) web framework. Here's all the code form `hellofly.py`:
+The Python hellofly application is, as you'd expect for an example, small. It's a Python application that uses the [Flask](https://flask.palletsprojects.com/) web framework. Here's all the code form `hellofly.py`:
 
 ```python
 from flask import Flask, render_template
@@ -114,7 +114,7 @@ This says the web component of the application is served by `gunicorn` (which we
 
 ## _Inside `fly.toml`_
 
-The `fly.toml` file now contains a default configuration for deploying your app. In the process of creating that file, `flyctl` has also created a Fly-side application slot of the same name, "hellofly". If we look at the `fly.toml` file we can see the name in there:
+The `fly.toml` file now contains a default configuration for deploying your app. In the process of creating that file, `flyctl` has also created a Fly-side application slot of the same name, `hellofly`. If we look at the `fly.toml` file we can see the name in there:
 
 ```toml
 # fly.toml file generated for hellofly-python on 2021-01-13T15:21:15Z
