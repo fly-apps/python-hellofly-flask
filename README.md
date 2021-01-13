@@ -1,10 +1,10 @@
-# Hellofly-python
+# Python-hellofly-flask
 
 In our Hands-On section, we show how to deploy a deployable image file using Flyctl. Now we are going to deploy an application from source. In this _Getting Started_ article, we look at how to deploy a Python application on Fly. 
 
 ## _The Hellofly-python Application_
 
-You can get the code for the example from [the hellofly Github repository](https://github.com/fly-examples/hellofly-python). Just `git clone https://github.com/fly-examples/hellofly-python` to get a local copy.
+You can get the code for the example from [the hellofly Github repository](https://github.com/fly-examples/python-hellofly-flask). Just `git clone https://github.com/fly-examples/python-hellofly-flask` to get a local copy.
 
 The hellofly-python application is, as you'd expect for an example, small. It's a Python application that uses the [Flask](https://flask.palletsprojects.com/) web framework. Here's all the code form `hellofly.py`:
 
