@@ -84,9 +84,9 @@ Scanning source code
 Detected a Python app
 Using the following build configuration:
         Builder: paketobuildpacks/builder:base
-Selected App Name: flask-termos
+Selected App Name: 
 ? Select region: lhr (London, United Kingdom)
-Created app flask-termos in organization personal
+Created app hellofly-flask in organization personal
 Wrote config file fly.toml
 We have generated a simple Procfile for you. Modify it to fit your needs and run "fly deploy" to deploy your application.
 ```
@@ -107,10 +107,10 @@ This says the web component of the application is served by `gunicorn` (which we
 
 ## _Inside `fly.toml`_
 
-The `fly.toml` file now contains a default configuration for deploying your app. In the process of creating that file, `flyctl` has also created a Fly-side application slot of the same name, `hellofly`. If we look at the `fly.toml` file we can see the name in there:
+The `fly.toml` file now contains a default configuration for deploying your app. In the process of creating that file, `flyctl` has also created a Fly-side application slot of the same name, `hellofly-python`. If we look at the `fly.toml` file we can see the name in there:
 
 ```toml
-# fly.toml file generated for flask-termos on 2021-11-30T17:37:33+02:00
+# fly.toml file generated for hellofly-python on 2021-11-30T17:37:33+02:00
 
 app = "hellofly-python"
 
