@@ -69,7 +69,7 @@ Now, let's move on to deploying this app to Fly.
 
 ## _Install Flyctl and Login_
 
-We are ready to start working with Fly and that means we need `flyctl`, our CLI app for managing apps on Fly. If you've already installed it, carry on. If not, hop over to [our installation guide](/docs/getting-started/installing-flyctl/). Once that is installed you'll want to [login to Fly](/docs/getting-started/login-to-fly/).
+We are ready to start working with Fly and that means we need `flyctl`, our CLI app for managing apps on Fly. If you've already installed it, carry on. If not, hop over to [our installation guide](https://fly.io/docs/hands-on/install-flyctl/). Once that is installed you'll want to [login to Fly](https://fly.io/docs/hands-on/sign-in/).
 
 ## _Configure the App for Fly_
 
